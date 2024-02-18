@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        padding: 20px;
+      }
+      .card {
+        width: 250px;
+        text-align: center;
+      }
+      .image {
+        position: relative;
+      }
+      img:hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: yellow;
+        opacity: 0.5;
+      }
+      img::after{
+        content: '';
+        color: yellow;
+        opacity: 0.5;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img
+          src=https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=400
+          alt="">
+        </div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="card">
+         
+        <div class="image">
+        <img
+        src=https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=400
+        alt=""> </div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="card"> 
+        <div class="image">
+        <img
+        src=https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&w=400
+        alt=""></div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="card"> 
+        <div class="image">
+        <img
+        src=https://images.pexels.com/photos/1545590/pexels-photo-1545590.jpeg?auto=compress&cs=tinysrgb&w=400
+        alt=""></div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="card"> 
+        <div class="image">
+        <img
+        src=https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=400
+        alt=""></div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <div class="card"> 
+        <div class="image">
+        <img
+        src=https://images.pexels.com/photos/906052/pexels-photo-906052.jpeg?auto=compress&cs=tinysrgb&w=400
+        alt=""> </div>
+        <h5>Lorem.</h5>
+        <p>Lorem, ipsum.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
